@@ -183,3 +183,15 @@ Type of Item to Reference: Taxonomy Term
 Allowed Number of Values: unlimited
 Required Field: checked
 Vocabularies: Building[Checked]
+
+11. After all that go back to the content type Slide, and then click Manage Form Display
+12. In the widget column, hide the following fields: Authored by, Authored on, Promoted to Front page, Stickys at top of lists, URL alias
+13. Change the following value in the widget column for these fields
+
+Slide Campus Ref = Check boxes/Radio buttons 
+Slide Building Ref = Check boxes/Radio buttons 
+
+14. Click the save button 
+
+#### Creating the slide show view
+Now we will create the Slide show view which out
