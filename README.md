@@ -132,7 +132,49 @@ For this guide we are using Campuses and buildings.
    in the confirmation, click the delete button
 
 3. After delete those two types, click the +Add Content Types button
+
 4. Give the Content type a name. Mine was slide
 
+5. In Submission form settings, have the title required
+   In publishing options, uncheck everything 
+   and in Menu settings uncheck everything 
+   
+6. Delete the body filed type by clicking the arrow next to the edit button. Click delete again to confirm the deletion
+
+7. Click the +Add Field button
+
+8. In the add in new field dropdown select taxonomy term, then in the text give the field a name, this field will be called Slide Campus. Click the Save and Continue button
+
+9. Leave the first dropdown as the default value and change the allowed number of values to unlimited. click Save Field Settings
+
+10. Now check off the required box and under Reference type and check off Campuses. Click the save settings button (If you created the taxonomy vocabulary correctly it should be there)
+
+Using similar steps abover (7 though 10) add these field names with these values:
+###### Slide Image
+Label: Slide Image
+Field Type: Image
+Upload Destination: checked
+Default Image: leave default (blank)
+Allowed Number of Values: 1
+Required Field: checked
+Allowed File Extensions: png, jpeg, jpg *You can use what ever extensions in your own project*
+File directory: images *change this name at your discretion*
+Maximum Image Resolution: blank
+Minimum Image Resolution: 900x480 *For our guide this is minimum size they can have for an image*
+Maximum Upload size: 2mb
+Enable Alt field: checked
+Alt Field Required: checked
+###### Slide Date Start
+Label: Slide Date Start
+Field Type: Date
+Date Type: Date Only
+Allowed Number of Values: 1
+Required Field: checked
+###### Slide Date End
+Label: Slide Date End
+Field Type: Date
+Date Type: Date Only
+Allowed Number of Values: 1
+Required Field: checked
 
  
