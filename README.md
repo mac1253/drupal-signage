@@ -102,20 +102,37 @@ those dimensions
 
 
 #### Lets add some Taxonomy terms
+
 1. In your admin bar click Structure, and in Structure click Taxonomy
+
 2. click the +Add Vocabulary button 
+
 For this guide we are using Campuses and buildings.
+
 3. Add a name in the name textbox, in this guide We'll use Campuses. Give a description if you'd like
+
 3. Click the save button and you should be directed to a page where you can add terms.
+
 4. Click the +Add terms button
+
+5. Give the term a name, I gave it West Campus and click the Save button. Clicking save doesnt bring you back to the previous page, it allows you to enter another
+
+6. Enter all the terms you need to add. I added an East, North and South Campus
+
+7. in the bread crumbs Home>>Administration>>Structure>>Taxonomy>>Campuses 
+ Click on taxonomy. repeat Steps 2 through 6 for Buildings
+
 
 #### Lets add a content type to display
 
 1. In your admin bar click Structure, and in Structure click Content Types
+
 2. Delete the two current content types.
    click the little arrow next the Manage Fields button and click delete in the dropdown
    in the confirmation, click the delete button
-   
+
+3. After delete those two types, click the +Add Content Types button
+4. Give the Content type a name. Mine was slide
 
 
  
