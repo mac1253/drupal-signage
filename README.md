@@ -99,16 +99,23 @@ those dimensions
 7. Click the add effect button
 
 8. Then click the Update Style button
+
+
+#### Lets add some Taxonomy terms
+1. In your admin bar click Structure, and in Structure click Taxonomy
+2. click the +Add Vocabulary button 
+For this guide we are using Campuses and buildings.
+3. Add a name in the name textbox, in this guide We'll use Campuses. Give a description if you'd like
+3. Click the save button and you should be directed to a page where you can add terms.
+4. Click the +Add terms button
+
 #### Lets add a content type to display
 
-1. In your admin click Structure, and in Structure click Content Types
+1. In your admin bar click Structure, and in Structure click Content Types
 2. Delete the two current content types.
-3. click the little arrow next the Manage Fields button
-
-
-
-
-
+   click the little arrow next the Manage Fields button and click delete in the dropdown
+   in the confirmation, click the delete button
+   
 
 
  
