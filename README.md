@@ -9,41 +9,19 @@ Continuing from the [clean installation of ubuntu]( https://github.com/mac1253/C
 3. [Install Drupal Modules](#3)
 4. [Configuring the site](#4)
 
-#1. Install Ubuntu
+## #1. Install Ubuntu
 
 Follow this guide to perform a clean installation of Ubuntu  
 
 https://github.com/mac1253/Clean-Install-Ubuntu-15-Guide
 
-#2. Set up development environment
+## #2. Set up development environment
 
 Follow this guide to set up a development environment
 
 https://github.com/mac1253/roll-your-own
 
-#3. Install Drupal Modules
-
-Assuming you followed and installed everything correctly from the previous guides this step will show you how to install the necessary Drupal modules needed
-
-Drupal modules are extended features that can be added to your website.
-
-1. Open a terminal, and change to your website directory
-```bash
-$ cd sites/yoursite
-```
-
-2. Now using drush, install the following drupal modules
-```bash
-$ drush en slick
-```
-*Using drush en command you not only download it but enable the module as well drush dl just downloads and installs the module but does not enable it *
-#2. Set up development environment
-
-Follow this guide to set up a development environment
-
-https://github.com/mac1253/roll-your-own
-
-#3. Install Drupal Modules
+## #3. Install Drupal Modules
 
 Assuming you followed and installed everything correctly from the previous guides this step will show you how to install the necessary Drupal modules needed
 
@@ -79,7 +57,7 @@ localhost/yoursite
 3. Scroll down and make sure Blazy, Blazy ui, Slick, Slick ui and Slick views have are checked. 
   a. If they are not, click the check box next to their name, scroll down to the bottom of the page and click install
 
-Now we must set up a slick optionset
+#### Now we must set up a slick optionset
 
 1. on the admin bar, click configuration, and on that page under the media section click the slick link
 
@@ -101,19 +79,31 @@ Now we must set up a slick optionset
  
  5. Click save at the bottom of the page
  
-Now lets add an image style for the slideshow
+#### Now lets add an image style for the slideshow
 
 1. in your admin bar go to configuration, and under media click Image Styles
-2. In the image styles page, click the blue +Add image style button
-3. Give the style a name and click Create New Style button
-4. In the select new effect drop down, select Scale
-5. Click the Add button, next to the drop down.
-For this guide, we are assuming all displays will be a resolution at higheest 1920x1080, if you have a monitors high, use those dimensions
-6. In the width text box enter 1920 and in the height box enter 1080. Check the Allow upscaling box at your discretion
-7. Click the add effect button
-8. Then click the Update Style button
-----
 
+2. In the image styles page, click the blue +Add image style button
+
+3. Give the style a name and click Create New Style button
+
+4. In the select new effect drop down, select Scale
+
+5. Click the Add button, next to the drop down.
+
+For this guide, we are assuming all displays will be a resolution at higheest 1920x1080, if you have a monitors high, use 
+those dimensions
+
+6. In the width text box enter 1920 and in the height box enter 1080. Check the Allow upscaling box at your discretion
+
+7. Click the add effect button
+
+8. Then click the Update Style button
+#### Lets add a content type to display
+
+1. In your admin click Structure, and in Structure click Content Types
+2. Delete the two current content types.
+3. click the little arrow next the Manage Fields button
 
 
 
