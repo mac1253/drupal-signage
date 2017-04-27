@@ -149,12 +149,12 @@ For this guide we are using Campuses and buildings.
 
 10. Now check off the required box and under Reference type and check off Campuses. Click the save settings button (If you created the taxonomy vocabulary correctly it should be there)
 
-Using similar steps abover (7 though 10) add these field names with these values:
+ Using similar steps abover (7 though 10) add these field names with these values:
 ###### Slide Image
-Label: Slide Image
-Field Type: Image
-Upload Destination: checked
-Default Image: leave default (blank)
+ Label: Slide Image
+ Field Type: Image
+ Upload Destination: checked
+ Default Image: leave default (blank)
 Allowed Number of Values: 1
 Required Field: checked
 Allowed File Extensions: png, jpeg, jpg *You can use what ever extensions in your own project*
@@ -184,14 +184,16 @@ Allowed Number of Values: unlimited
 Required Field: checked
 Vocabularies: Building[Checked]
 
-11. After all that go back to the content type Slide, and then click Manage Form Display
-12. In the widget column, hide the following fields: Authored by, Authored on, Promoted to Front page, Stickys at top of lists, URL alias
-13. Change the following value in the widget column for these fields
+#### Manage Form Display
 
-Slide Campus Ref = Check boxes/Radio buttons 
-Slide Building Ref = Check boxes/Radio buttons 
+1. After all that go back to the content type Slide, and then click Manage Form Display
+2. In the widget column, hide the following fields: Authored by, Authored on, Promoted to Front page, Stickys at top of lists, URL alias
+3. Change the following value in the widget column for these fields
 
-14. Click the save button 
+ Slide Campus Ref = Check boxes/Radio buttons 
+ Slide Building Ref = Check boxes/Radio buttons 
+
+4. Click the save button 
 
 #### Creating the slide show view
 Now we will create the Slide show view which out
