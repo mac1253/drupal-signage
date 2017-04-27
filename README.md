@@ -38,12 +38,23 @@ $ drush en slick
 ```
 *Using drush en command you not only download it but enable the module as well drush dl just downloads and installs the module but does not enable it *
 
-3. the terminal will ask you if you would ike to download them, press y, and hit enter. Do this until all required modules have been installed. Do this for the remaining modules
+3. the terminal will ask you if you would ike to download them, press y, and hit enter. Do this until all required modules have been installed and enabled. Do this for the remaining modules
 
 4. Install slick views
 ```bash
-$ drush slick_views
+$ drush en slick_views
 ```
+
+5. Install Field group
+```bash
+$ drush en field_group
+```
+
+5. Install Field States UI
+```bash
+$ drush en field_states_ui
+```
+
 #4. Configuring the site
 
 Now we will configure the website to become a slide show
@@ -54,7 +65,7 @@ localhost/yoursite
 ```
 
 2. Sign into an admin account and click Extend in the admin bar.
-3. Scroll down and make sure Blazy, Blazy ui, Slick, Slick ui and Slick views have are checked. 
+3. Scroll down and make sure Field Group, Field States UI, Blazy, Blazy ui, Slick, Slick ui and Slick Views are checked. 
   a. If they are not, click the check box next to their name, scroll down to the bottom of the page and click install
 
 #### Now we must set up a slick optionset
