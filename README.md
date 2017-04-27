@@ -151,38 +151,38 @@ For this guide we are using Campuses and buildings.
 
  Using similar steps abover (7 though 10) add these field names with these values:
 ###### Slide Image
- Label: Slide Image
- Field Type: Image
- Upload Destination: checked
- Default Image: leave default (blank)
-Allowed Number of Values: 1
-Required Field: checked
-Allowed File Extensions: png, jpeg, jpg *You can use what ever extensions in your own project*
-File directory: images *change this name at your discretion*
-Maximum Image Resolution: blank
-Minimum Image Resolution: 900x480 *For our guide this is minimum size they can have for an image*
-Maximum Upload size: 2mb
-Enable Alt field: checked
-Alt Field Required: checked
+1. Label: Slide Image
+2. Field Type: Image
+3. Upload Destination: checked
+4. Default Image: leave default (blank)
+5. Allowed Number of Values: 1
+6. Required Field: checked
+7. Allowed File Extensions: png, jpeg, jpg *You can use what ever extensions in your own project*
+8. File directory: images *change this name at your discretion*
+9. Maximum Image Resolution: blank
+10. Minimum Image Resolution: 900x480 *For our guide this is minimum size they can have for an image*
+11. Maximum Upload size: 2mb
+12. Enable Alt field: checked
+13. Alt Field Required: checked
 ###### Slide Date Start
-Label: Slide Date Start
-Field Type: Date
-Date Type: Date Only
-Allowed Number of Values: 1
-Required Field: checked
+1. Label: Slide Date Start
+2. Field Type: Date
+2. Date Type: Date Only
+4. Allowed Number of Values: 1
+5. Required Field: checked
 ###### Slide Date End
-Label: Slide Date End
-Field Type: Date
-Date Type: Date Only
-Allowed Number of Values: 1
-Required Field: checked
+1. Label: Slide Date End
+2. Field Type: Date
+3. Date Type: Date Only
+4. Allowed Number of Values: 1
+5. Required Field: checked
 ###### Slide Building Ref
-Label: Slide Building Ref
-Field Type: Taxonomy Term
-Type of Item to Reference: Taxonomy Term
-Allowed Number of Values: unlimited
-Required Field: checked
-Vocabularies: Building[Checked]
+1. Label: Slide Building Ref
+2. Field Type: Taxonomy Term
+3. Type of Item to Reference: Taxonomy Term
+4. Allowed Number of Values: unlimited
+5. Required Field: checked
+6. Vocabularies: Building[Checked]
 
 #### Manage Form Display
 
@@ -190,7 +190,7 @@ Vocabularies: Building[Checked]
 2. In the widget column, hide the following fields: Authored by, Authored on, Promoted to Front page, Stickys at top of lists, URL alias
 3. Change the following value in the widget column for these fields
 
- Slide Campus Ref = Check boxes/Radio buttons 
+ Slide Campus Ref = Check boxes/Radio buttons and
  Slide Building Ref = Check boxes/Radio buttons 
 
 4. Click the save button 
