@@ -143,7 +143,7 @@ For this guide we are using Campuses and buildings.
 
 7. Click the +Add Field button
 
-8. In the add in new field dropdown select taxonomy term, then in the text give the field a name, this field will be called Slide Campus. Click the Save and Continue button
+8. In the add in new field dropdown select taxonomy term, then in the text give the field a name, this field will be called Slide Campus Ref. Click the Save and Continue button
 
 9. Leave the first dropdown as the default value and change the allowed number of values to unlimited. click Save Field Settings
 
@@ -176,5 +176,10 @@ Field Type: Date
 Date Type: Date Only
 Allowed Number of Values: 1
 Required Field: checked
-
- 
+###### Slide Building Ref
+Label: Slide Building Ref
+Field Type: Taxonomy Term
+Type of Item to Reference: Taxonomy Term
+Allowed Number of Values: unlimited
+Required Field: checked
+Vocabularies: Building[Checked]
