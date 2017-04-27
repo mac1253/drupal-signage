@@ -121,6 +121,7 @@ For this guide we are using Campuses and buildings.
 
 7. in the bread crumbs Home>>Administration>>Structure>>Taxonomy>>Campuses 
  Click on taxonomy. repeat Steps 2 through 6 for Buildings
+ I had 3 terms for buildings. None, Library, Cafe
 
 
 #### Lets add a content type to display
