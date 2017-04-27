@@ -66,7 +66,7 @@ $ drush en slick
 ```bash
 $ drush slick_views
 ```
-#4. Configuring your modules
+#4. Configuring the site
 
 Now we will configure the website to become a slide show
 
@@ -101,6 +101,24 @@ Now we must set up a slick optionset
  
  5. Click save at the bottom of the page
  
+Now lets add an image style for the slideshow
+
+1. in your admin bar go to configuration, and under media click Image Styles
+2. In the image styles page, click the blue +Add image style button
+3. Give the style a name and click Create New Style button
+4. In the select new effect drop down, select Scale
+5. Click the Add button, next to the drop down.
+For this guide, we are assuming all displays will be a resolution at higheest 1920x1080, if you have a monitors high, use those dimensions
+6. In the width text box enter 1920 and in the height box enter 1080. Check the Allow upscaling box at your discretion
+7. Click the add effect button
+8. Then click the Update Style button
+----
+
+
+
+
+
+
 
 
  
