@@ -314,3 +314,14 @@ Now that you have those settings set up, click save. When the page reloads scrol
 ```
 *This link does not work on the local site but it does work on a live site.*
 
+1. Click the Add display button. Make it a page.
+2. Change the Display Name to West Campus
+3. In The Format Section click the Table, and change it to Slick Carousel. Click Apply(This Display)
+4. If the Slick Format settings didnt open up, just click settings right next to it the Format name
+5. In those settings change the Optionset Main dropdown to SlideShowOpt.
+6. Then change the Skin Main dropdown to Fullscreen.
+7. In fields section of Slick Carousel Settings, Change the Main Stage dropdown to Image
+8. In the fields section of displays, click the Rearrange button
+9. Remove everything except the Slide Image. Click the Apply button
+10. In the Filter Criteria section, click the Add button. Type Slide into the search and check box the following:
+11. 
