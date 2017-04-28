@@ -232,7 +232,8 @@ For this guide we are using Campuses and buildings.
 14. Do steps 12 and 13 for the corresponding groups and field groups such as Campuses, Dates, and Buildings.
 
 This will give you a nice display to input slides
-
+#### Make a Test slide 
+1. In the admin bar, click content 
 
 #### Creating the slide show view
 Now we will create the Slide show view which output the images in the manner we want it.
@@ -246,6 +247,40 @@ Now we will create the Slide show view which output the images in the manner we 
 4. The View Name will be Slide Show. View settings will Show: [Content] of Type: [Slide] sorted by: [Newest first]. Then click the Save and Edit button
 
 This is where Drupal will query and format your images for a slide show. We will also inlcude a slide show management view.
+###### All the settings in this View have the option "For", make sure for each display it is "This page(Override)" instead of "All Displays".
+###### Click the Save button often!!!!
+5. In your new view click the +Add button next to the Master display tab. Click Page in the drop downn.
+6. click the Display Name link and Change the Name to Slide Show Management. Change the title. change for All Displays to This Page(override) and the title an empty text box.
+7. Make Sure the Format is a Table
+8. Click the Add button in the fields section. In the search bar type Slide
+9. CHeck off these fields: Slide Image, Slide Campus Ref, Slide Building Ref, Slide Date Start and Slide Date End.
+Dont check off the delta fields.
+10. The settings for the field window will show up. Make sure the For drop down is set to This Page(Override)
+11. I will be renaming the labels, to Building, Image, Date, etc so the word slide is not before it.
+#### Settings for Fields
+##### Slide Campus Ref
+1. For: This Page(Override)
+2. Label: Campus
 
-5. In your new view click the +Add button next to the Master display tab. Click Page in the drop downn
+##### Slide Building Ref
+1. For: This Page(Override)
+2. Label: Building
+
+##### Slide Date Start
+1. For: This Page(Override)
+2. Label: Date Start
+3. Date Format: Default Long Date
+
+##### Slide Date End
+1. For: This Page(Override)
+2. Label: Date End
+3. Date Format: Default Long Date
+
+##### Slide Image
+1. For: This Page(Override)
+2. Label: Image
+3. Image Style: Medium (220x220)
+4. Link Image to: File
+
+
 
