@@ -133,7 +133,7 @@ For this guide we are using Campuses and buildings.
 
 7. in the bread crumbs Home>>Administration>>Structure>>Taxonomy>>Campuses 
  Click on taxonomy. repeat Steps 2 through 6 for Buildings
- I had 3 terms for buildings. None, Library, Cafe
+ I had 3 terms for buildings. Global, Library, Cafe
 
 
 #### Lets add a content type to display
@@ -194,6 +194,7 @@ For this guide we are using Campuses and buildings.
 2. Field Type: Taxonomy Term
 3. Type of Item to Reference: Taxonomy Term
 4. Allowed Number of Values: unlimited
+5. Default Value: Global [Checked]
 5. Required Field: checked
 6. Vocabularies: Building[Checked]
 
@@ -362,7 +363,7 @@ Now that you have those settings set up, click save. When the page reloads scrol
 1. Luckily, instead of doing all that over again you can duplicate a display. In our instance West Campus.
 2. Click on Display tab you want to duplicate, then click the little arrow next to the View West Campus and click Duplicate West Campus. Save the view.
 3. Change the Display Name to East Campus
-4. In Filter Criteria section, change the Slide Building settings. Change the Select terms from vocabulary Building option to none.
+4. In Filter Criteria section, change the Slide Building settings. Change the Select terms from vocabulary Building option to Global.
 
 The Reason is because We dont have a complete list of buildings on each campus
 
@@ -376,7 +377,7 @@ Do this for every Campus or Location.
 Similar to setting up the previous display.
 
 1. Duplicate the West Campus display to West Campus Cafe.
-2. In Filter Criteria section, change the Slide Building settings. Change the Select terms from vocabulary Building option to none and Cafe.
+2. In Filter Criteria section, change the Slide Building settings. Change the Select terms from vocabulary Building option to Global and Cafe.
 3. In the Page Settings section, change the path to westcampuscafe. Change the Menu Title to West Campus Cafe. Save the View.
 
 Do this for any other building and change the settings accordingly.
@@ -386,6 +387,7 @@ Do this for any other building and change the settings accordingly.
 #### #1. I'd recommend making some more dummy content with different pictures to see the slideshow in action!
 #### #2. As of right now making sure the image displays on the correct date isn't working in Drupal 8.
 #### #3. Using Field States UI module you can have the correct buildings displayed only when certain Campuses are checked. In this guide, all the buildings would be displayed and clickable regardless but it works because of the Filter Criteria settings so you can have East Campus selected and cafe for a building. It wouldnt show up in either.
+
 
 Go back yo your home site and in the top right corner, where user links are, you can check out Slide managment, West Campus, East Campus, West Campus Cafe and any other ones you have added
 
