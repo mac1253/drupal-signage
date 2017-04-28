@@ -8,6 +8,7 @@ Continuing from the [clean installation of ubuntu]( https://github.com/mac1253/C
 2. [Set up development environment]( https://github.com/mac1253/roll-your-own)
 3. [Install Drupal Modules](#3)
 4. [Configuring the site](#4)
+5. [Raspberry Pi Signage](#5)
 
 ## #1. Install Ubuntu
 
@@ -301,27 +302,103 @@ Dont check off the delta fields.
 Now that you have those settings set up, click save. When the page reloads scroll down to the auto preview and you can see your a preview of what we display on a page!
 
 1. Going back to the fields section, next to the Add button click the arrow and then click Rearrange.
+
 2. Using the rearrange icon, put it in this order: Image, Title, Campus, Building, Start Date, End Date
+
 3. Click Apply(This Display)
+
 4. The Filter Criteria for this page at its default works.
-5. In the Page Settings section, change the Path to slidemanagement. Click Apply.
-6. In the Header section, click Add, then type unfiltered text, check it and apply. 
-7. Add the code below to the Content part and click Apply(This Display)
+
+5. In the Page Settings section, change the Path to slidemanagement. Click Apply. Then change the Menu setting from none to Normal Menu Entry. In Normal Menu Entry settings, Change the Menu link Title to Slide Show Management. Change the Parent dropdown to <'user account menu'>. Click Apply.
+
+6. Now click the Permissions setting, select the Role radio button. Click Apply. Then click which type of user role can access this, for our guide, we are going to only select Administrator.
+
+7. In the Header section, click Add, then type unfiltered text, check it and apply. 
+
+8. Add the code below to the Content part and click Apply(This Display)
 ```html
 <div class="add-node">
  <a href="/node/add/slide">Add a new slide</a>
 </div>
 ```
+
 *This link does not work on the local site but it does work on a live site.*
 
 1. Click the Add display button. Make it a page.
+
 2. Change the Display Name to West Campus
+
 3. In The Format Section click the Table, and change it to Slick Carousel. Click Apply(This Display)
+
 4. If the Slick Format settings didnt open up, just click settings right next to it the Format name
+
 5. In those settings change the Optionset Main dropdown to SlideShowOpt.
+
 6. Then change the Skin Main dropdown to Fullscreen.
+
 7. In fields section of Slick Carousel Settings, Change the Main Stage dropdown to Image
+
 8. In the fields section of displays, click the Rearrange button
+
 9. Remove everything except the Slide Image. Click the Apply button
-10. In the Filter Criteria section, click the Add button. Type Slide into the search and check box the following:
-11. 
+
+10. In the Filter Criteria section, click the Add button. Type Slide into the search and check box the following: Slide Building Ref (field_slide_building_ref) and Slide Campus Ref (field_slide_campus_ref). Click Apply.
+
+11. In the extra setting window choose the Taxonomy Vocabulary for the corresponding Field you chose. Then for the Selection type, click drop down. Click Apply and Continue.
+
+12. For the field type of Building, have the Operator set to Is one of, then select all the buildings that belong to that campus from the Select terms from Vocabulary Building box. Click Apply. 
+
+14. If you the Campus Field first, then set the Operator to Is one of, the select only that campus (in this case West Campus)
+
+13. Repeat step 11 for the corresponding field.
+
+15. In the Page Settings section, change the path to westcampus
+
+16. Then change the Menu setting from none to Normal Menu Entry. In Normal Menu Entry settings, Change the Menu link Title to West Campus. Change the Parent dropdown to <'user account menu'>. Click Apply.
+
+17. Save the display.
+
+#### Now to Rinse and Repeat for other campuses.
+1. Luckily, instead of doing all that over again you can duplicate a display. In our instance West Campus.
+2. Click on Display tab you want to duplicate, then click the little arrow next to the View West Campus and click Duplicate West Campus. Save the view.
+3. Change the Display Name to East Campus
+4. In Filter Criteria section, change the Slide Building settings. Change the Select terms from vocabulary Building option to none.
+
+The Reason is because We dont have a complete list of buildings on each campus
+
+5. In Filter Criteria section, change the Slide Campus settings. Change the Select terms from vocabulary Building option to East Campus.
+6. In the Page Settings section, change the path to eastcampus. Change the Menu Title to East Campus. Save the View.
+
+Do this for every Campus or Location.
+
+#### Building Specific Display
+
+Similar to setting up the previous display.
+
+1. Duplicate the West Campus display to West Campus Cafe.
+2. In Filter Criteria section, change the Slide Building settings. Change the Select terms from vocabulary Building option to none and Cafe.
+3. In the Page Settings section, change the path to westcampuscafe. Change the Menu Title to West Campus Cafe. Save the View.
+
+Do this for any other building and change the settings accordingly.
+
+# Congrats your done!
+## Some important info:
+#### #1. I'd recommend making some more dummy content with different pictures to see the slideshow in action!
+#### #2. As of right now making sure the image displays on the correct date isn't working in Drupal 8.
+#### #3. Using Field States UI module you can have the correct buildings displayed only when certain Campuses are checked. In this guide, all the buildings would be displayed and clickable regardless but it works because of the Filter Criteria settings so you can have East Campus selected and cafe for a building. It wouldnt show up in either.
+
+Go back yo your home site and in the top right corner, where user links are, you can check out Slide managment, West Campus, East Campus, West Campus Cafe and any other ones you have added
+
+
+## #5. Raspberry Pi Signage
+
+Follow this guide to complete your signage!
+
+https://github.com/mac1253/raspberry-pi-Kiosk-mode(https://github.com/mac1253/raspberry-pi-Kiosk-mode)
+
+
+
+
+
+
+
