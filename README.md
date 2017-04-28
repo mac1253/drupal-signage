@@ -39,7 +39,7 @@ $ drush en slick
 ```
 *Using drush en command you not only download it but enable the module as well drush dl just downloads and installs the module but does not enable it *
 
-3. the terminal will ask you if you would ike to download them, press y, and hit enter. Do this until all required modules have been installed and enabled. Do this for the remaining modules
+3. the terminal will ask you if you would like to download them, press y, and hit enter. Do this until all required modules have been installed and enabled. Do this for the remaining modules
 
 4. Install slick views
 ```bash
@@ -103,7 +103,7 @@ localhost/yoursite
 
 5. Click the Add button, next to the drop down.
 
-For this guide, we are assuming all displays will be a resolution at higheest 1920x1080, if you have a monitors high, use 
+For this guide, we are assuming all displays will be a resolution at highest 1920x1080, if you have a monitors high, use 
 those dimensions
 
 6. In the width text box enter 1920 and in the height box enter 1080. Check the Allow upscaling box at your discretion
@@ -127,7 +127,7 @@ For this guide we are using Campuses and buildings.
 
 4. Click the +Add terms button
 
-5. Give the term a name, I gave it West Campus and click the Save button. Clicking save doesnt bring you back to the previous page, it allows you to enter another
+5. Give the term a name, I gave it West Campus and click the Save button. Clicking save doesn't bring you back to the previous page, it allows you to enter another
 
 6. Enter all the terms you need to add. I added an East, North and South Campus
 
@@ -144,7 +144,7 @@ For this guide we are using Campuses and buildings.
    click the little arrow next the Manage Fields button and click delete in the dropdown
    in the confirmation, click the delete button
 
-3. After delete those two types, click the +Add Content Types button
+3. After you delete those two types, click the +Add Content Types button
 
 4. Give the Content type a name. Mine was slide
 
@@ -162,7 +162,7 @@ For this guide we are using Campuses and buildings.
 
 10. Now check off the required box and under Reference type and check off Campuses. Click the save settings button (If you created the taxonomy vocabulary correctly it should be there)
 
- Using similar steps abover (7 though 10) add these field names with these values:
+ Using similar steps above (7 though 10) add these field names with these values:
 ###### Slide Image
 1. Label: Slide Image
 2. Field Type: Image
@@ -215,13 +215,13 @@ For this guide we are using Campuses and buildings.
 
 6. Select a Group Type of Tabs, give the label a name of Wrapper. Click the Save and Continue button
 
-7. Change the Veritcal value in the direction drop down to Horizontal and click the Create Group button
+7. Change the vertical value in the direction drop down to Horizontal and click the Create Group button
 
 8. Now create a Group Type of Tab with Label name of Image, click the Save and Continue button. Change Default State to open then click the Create Group button
 
 9. Do step 8 3 more times with these label names, Campuses, Buildings, and Dates, respectively. Do not change the Default state for these groups to open.
 
-10. Click save at the botton of the page.
+10. Click save at the bottom of the page.
 
 11. Using the Directional icon next to the group names, click and drag the Wrapper Group right below Title.
 
@@ -318,9 +318,9 @@ Now that you have those settings set up, click save. When the page reloads scrol
 
 8. Add the code below to the Content part and click Apply(This Display)
 ```html
-<div class="add-node">
- <a href="/node/add/slide">Add a new slide</a>
-</div>
+
+ Add a new slide
+
 ```
 
 *This link does not work on the local site but it does work on a live site.*
@@ -386,10 +386,10 @@ Do this for any other building and change the settings accordingly.
 ## Some important info:
 #### #1. I'd recommend making some more dummy content with different pictures to see the slideshow in action!
 #### #2. As of right now making sure the image displays on the correct date isn't working in Drupal 8.
-#### #3. Using Field States UI module you can have the correct buildings displayed only when certain Campuses are checked. In this guide, all the buildings would be displayed and clickable regardless but it works because of the Filter Criteria settings so you can have East Campus selected and cafe for a building. It wouldnt show up in either.
+#### #3. Using Field States UI module you can have the correct buildings displayed only when certain Campuses are checked. In this guide, all the buildings would be displayed and clickable regardless but it works because of the Filter Criteria settings so you can have East Campus selected and cafe for a building. It wouldn't show up in either.
 
 
-Go back yo your home site and in the top right corner, where user links are, you can check out Slide managment, West Campus, East Campus, West Campus Cafe and any other ones you have added
+Go back yo your home site and in the top right corner, where user links are, you can check out Slide management, West Campus, East Campus, West Campus Cafe and any other ones you have added
 
 
 ## #5. Raspberry Pi Signage
@@ -397,8 +397,6 @@ Go back yo your home site and in the top right corner, where user links are, you
 Follow this guide to complete your signage!
 
 https://github.com/mac1253/raspberry-pi-Kiosk-mode(https://github.com/mac1253/raspberry-pi-Kiosk-mode)
-
-
 
 
 
