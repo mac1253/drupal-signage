@@ -3,6 +3,12 @@ a small website for using Drupal as signage
 
 Continuing from the [clean installation of ubuntu]( https://github.com/mac1253/Clean-Install-Ubuntu-15-Guide) and then [setting up development environment]( https://github.com/mac1253/roll-your-own), respectively, this guide will show you how to set up a slide show on a Drupal site, tailor made for digital signage
 
+### Required Materials
+1. Computer with mouse, keyboard and monitor.
+2. Raspberry Pi + Accessories 
+
+
+
 **Steps**
 1. [Install Ubuntu]( https://github.com/mac1253/Clean-Install-Ubuntu-15-Guide)
 2. [Set up development environment]( https://github.com/mac1253/roll-your-own)
@@ -396,7 +402,7 @@ Go back yo your home site and in the top right corner, where user links are, you
 
 Follow this guide to complete your signage!
 
-https://github.com/mac1253/raspberry-pi-Kiosk-mode(https://github.com/mac1253/raspberry-pi-Kiosk-mode)
+https://github.com/mac1253/pi-signage
 
 
 
