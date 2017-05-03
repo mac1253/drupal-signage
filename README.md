@@ -388,6 +388,40 @@ Similar to setting up the previous display.
 
 Do this for any other building and change the settings accordingly.
 
+#### Setting up User Roles and Accounts
+*Click Save on after all changes!*
+1. In the admin bar click People. 
+
+2. At the top of the page, click the Roles tab
+
+3. Click the +Add role button.
+
+4. Give the role a name. I gave the role name Uploader
+
+5. On the page Roles page, click the little arrow next to edit
+
+6. Scroll down until you see a permission that says something along the lines of: slide: Create new content.
+
+7. Click the check box to the right of it. CLick save on the bottom
+
+8. The role has now been created.
+
+##### How to create an account
+1. In the admin bar click People
+
+2. At the top click the +Add People button.
+
+3. Fill out all the information such Email, Username, password and confirm password.
+
+4. Click the Active radio button under Status. This makes the account active.
+
+5. Under Roles title, toggle Uploader.  
+
+6. Scroll down and click the Create New account button. This user can only create slides
+
+This user may now sign in and create slides by clicking the Slide management link in at the top of the page.
+
+
 # Congrats your done!
 ## Some important info:
 #### #1. I'd recommend making some more dummy content with different pictures to see the slideshow in action!
